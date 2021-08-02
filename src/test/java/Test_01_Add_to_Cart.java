@@ -33,6 +33,8 @@ public class Test_01_Add_to_Cart {
 
         WebElement successMessage = driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']"));
         //Assert.assertTrue(successMessage.isDisplayed());
+        driver.close();
+        driver.quit();
 
 
 
